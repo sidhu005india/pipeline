@@ -16,7 +16,11 @@ steps{
 bat  'echo success stage 2'
 }
 }
-
+stage("stage 3"){
+steps{
+bat  'echo success stage 3'
+}
+}
 
 
 }
