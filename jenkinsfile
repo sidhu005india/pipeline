@@ -1,0 +1,23 @@
+
+
+pipeline{
+
+agent any
+
+stages{
+
+stage ("stage 1"){
+steps{
+bat 'echo success stage 1'
+}
+}
+stage("stage 2"){
+steps{
+bat  'echo success stage 2'
+}
+}
+
+
+
+}
+}
